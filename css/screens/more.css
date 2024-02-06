@@ -1,0 +1,74 @@
+.more-users {
+     margin-bottom: 30px;
+}
+
+.more-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.more-icons .icons-raw__icon { 
+    width: 25%;
+}
+
+.icon-opacity-0 {
+    opacity: 0;
+}
+
+.main-icons_under {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.more-suggestions {
+    margin-top: 23px;
+}
+
+.more-suggestions__title{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+
+.more-suggestions__icons {
+    display: flex;
+    align-items: center;
+
+}
+
+.more-suggestions__icon-image {
+    background-color: var(--yellow);
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image i {
+    color: white;
+}
+
+.more-friends-icon i {
+    color: #e792a9
+}
+
+.more-friends-icon {
+    margin-right:60px;
+    margin-left: 60px;
+}
+
+.more-suggestions__icons .more-suggestions_icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-suggestions__icon-text {
+    color: var(--main-gray);
+}
+

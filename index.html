@@ -23,16 +23,26 @@
     </div>
 
     <header class="welcome-header">
-        <h1 class="welcome-header__title"> Welcome to kokoa Talk</h1>
+        <h1 class="welcome-header__title"> Welcome to Kokoa Talk </h1>
         <p class="welcome-header__text"> If you have a Kakao Account, log in with your email or phone number.</p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="password"/>
+    <form action="friends.html" method="get"  id="login-form">
+        <input name="username" type="text" placeholder="Email or phone number"/>
+        <input name="password" type="password" placeholder="password"/>
         <input type="submit" value="Log in"/>
         <a href="#">Find Kokoa Account or Password</a>
     </form>
+
+    <div id="screen-size">
+        Your screen is too small:(
+    </div>
+
+    <div id="landscape">
+        <Span>please flip your phone</Span>
+        <i class="fa-solid fa-rotate-right"></i>
+    </div>
+    
     <script src="https://kit.fontawesome.com/ce88afe6c7.js" 
     crossorigin="anonymous"></script>
 </body>

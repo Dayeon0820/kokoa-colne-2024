@@ -1,0 +1,46 @@
+#screen-size{
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 50;
+    position: absolute;
+    top: 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:645px){
+    #screen-size{
+        display: none;
+    }
+}
+
+#landscape {
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 51;
+    position: absolute;
+    top: 0;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#landscape i {
+    margin-top: 30px;
+    font-size: 60px;
+    color: #3b1b1c;
+}
+
+@media screen and (orientation: portrait){
+    #landscape{
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+.icons-raw__icon i {
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.icons-raw {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: var(--main-border);
+    padding-bottom: 25px;
+}
+
+.icons-raw__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons-raw__icon span {
+    font-weight: 500;
+    font-size: 16px;
+}
